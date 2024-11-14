@@ -17,7 +17,7 @@ namespace FirstWebApi.Models
 
         public bool IsAvailable {  get; set; }
 
-        public int CategoryID { get; set; }
+        public int CategoryId { get; set; }
 
         [JsonIgnore]
         public virtual Category Category { get; set; }
